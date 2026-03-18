@@ -5,27 +5,28 @@ interface CarouselProps {
   logos?: string[];
 }
 
+const base = import.meta.env.BASE_URL;
 const defaultLogos = [
-  "/logos/01_icontec.png",
-  "/logos/02_gobernacion-atlantico.png",
-  "/logos/03_ultracem.png",
-  "/logos/04_unibol.png",
-  "/logos/05_pimsa.png",
-  "/logos/06_puropollo.png",
-  "/logos/07_colegio-britanico.png",
-  "/logos/08_colegio-idphu.png",
-  "/logos/09_colegio-parrish.png",
-  "/logos/10_quintal.png",
-  "/logos/11_exal.png",
-  "/logos/12_adama-andina.png",
-  "/logos/13_inducol.png",
-  "/logos/14_impuche.png",
-  "/logos/15_acesco.png",
-  "/logos/16_monomeros.png",
-  "/logos/17_mordiscol.png",
-  "/logos/18_zona-franca.png",
-  "/logos/19_granabastos.png",
-  "/logos/20_ecosembrar.png",
+  `${base}logos/01_icontec.png`,
+  `${base}logos/02_gobernacion-atlantico.png`,
+  `${base}logos/03_ultracem.png`,
+  `${base}logos/04_unibol.png`,
+  `${base}logos/05_pimsa.png`,
+  `${base}logos/06_puropollo.png`,
+  `${base}logos/07_colegio-britanico.png`,
+  `${base}logos/08_colegio-idphu.png`,
+  `${base}logos/09_colegio-parrish.png`,
+  `${base}logos/10_quintal.png`,
+  `${base}logos/11_exal.png`,
+  `${base}logos/12_adama-andina.png`,
+  `${base}logos/13_inducol.png`,
+  `${base}logos/14_impuche.png`,
+  `${base}logos/15_acesco.png`,
+  `${base}logos/16_monomeros.png`,
+  `${base}logos/17_mordiscol.png`,
+  `${base}logos/18_zona-franca.png`,
+  `${base}logos/19_granabastos.png`,
+  `${base}logos/20_ecosembrar.png`,
 ];
 
 export const Carousel = ({ logos = defaultLogos }: CarouselProps) => {

@@ -90,7 +90,7 @@ export const Results = () => {
           >
             <Box pos={"absolute"} inset={0} style={{ zIndex: 2 }}>
               <Flex h={"100%"} w={"100%"} direction={"column"} align={"center"} justify={"center"} style={{ textAlign: "center" }}>
-                <Image src={"pie.png"} mah={"clamp(8.2rem, 11vw, 10.8rem)"} maw={"clamp(8.2rem, 11vw, 10.8rem)"} />
+                <Image src={import.meta.env.BASE_URL + "pie.png"} mah={"clamp(8.2rem, 11vw, 10.8rem)"} maw={"clamp(8.2rem, 11vw, 10.8rem)"} />
                 <Typography style={{ fontSize: "clamp(0.6rem, 1.6vw, 0.72rem)", maxWidth: "90%" }}>
                   Participantes del sector público y privado
                 </Typography>

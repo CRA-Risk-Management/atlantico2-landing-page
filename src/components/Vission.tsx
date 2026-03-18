@@ -9,7 +9,7 @@ export const Vission = () => {
   return (
     <Slide
       id="vision"
-      imageSrc="/backgrounds/vission.jpg"
+      imageSrc={import.meta.env.BASE_URL + "backgrounds/vission.jpg"}
       red={246}
       green={190}
       blue={0}

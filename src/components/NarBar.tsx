@@ -29,10 +29,10 @@ export const NavBar = () => {
     >
       <Flex gap={10} align={"center"}>
         <a href="https://www.crautonoma.gov.co/">
-          <Image h={30} w={"auto"} src={"/logo.svg"} />
+          <Image h={30} w={"auto"} src={import.meta.env.BASE_URL + "logo.svg"} />
         </a>
         <a href="https://www.inubac.com/">
-          <Image h={30} w={"auto"} src={"/inubac.png"} />
+          <Image h={30} w={"auto"} src={import.meta.env.BASE_URL + "inubac.png"} />
         </a>
       </Flex>
       <Flex gap={10} align={"center"} justify={"flex-end"}>

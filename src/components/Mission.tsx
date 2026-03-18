@@ -9,7 +9,7 @@ export const Mission = () => {
   return (
     <Slide
       id="mision"
-      imageSrc="/backgrounds/mission.jpg"
+      imageSrc={import.meta.env.BASE_URL + "backgrounds/mission.jpg"}
       red={151}
       green={215}
       blue={0}
